@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+    /* margin-top:120px; */
+}
+
+#h1{
+    margin-top: 50px;
+  color: white;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 130px;
+padding-left: 20px;
+
+}
+
+#imge{
+    margin-top:60px;
+    margin-left: 70px;
+  width: 32%;
+  height: 450px;
+  border: solid 10px yellow;
+ border-bottom-left-radius: 20px;
+ border-top-right-radius: 20px;
+ box-shadow: 8px 8px rgb(230, 20, 90);
+}
+
+#imge:hover{
+    transform: scale(1.1);
+   
+    cursor: pointer;
+    opacity: 2;
+}
+
+h1{
+    color: rgb(27, 240, 255);
+    font-size: 60px;
+  text-align: center;
+   text-decoration: underline;
+}
+h1:hover{
+     background-color: violet;
+     color: black;
+}
+.container{
+    width: 100%;
+    height: max-content;
+    border: solid 2px violet;
+    color: tomato;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.container:hover{
+    color: yellow;
+ cursor: pointer;
+ border: solid 6px white;
+
+}
+
+#logo{
+    width: 50px;
+}
+
+.users{
+    text-decoration: none;
+    color: white;
+    
+}
+.users:hover{
+    color: gold;
+}
